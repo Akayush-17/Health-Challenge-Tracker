@@ -1,4 +1,4 @@
-import { Workout } from '@/app/components/add-user/add-user.model';
+import { Workout } from '../add-user/add-user.model';
 
 export interface User {
   id: number;

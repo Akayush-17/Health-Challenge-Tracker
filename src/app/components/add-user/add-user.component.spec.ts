@@ -12,7 +12,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 
 import { AddUserComponent } from './add-user.component';
-import { AddUserService } from '@/app/services/add-user/add-user.service';
+import { AddUserService } from '../../services/add-user/add-user.service';
 import { of } from 'rxjs';
 
 describe('AddUserComponent', () => {

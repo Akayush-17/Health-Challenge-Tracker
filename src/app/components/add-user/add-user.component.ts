@@ -31,8 +31,8 @@ import { CommonModule } from '@angular/common';
 import {
   Workout,
   workoutOptions,
-} from '@/app/components/add-user/add-user.model';
-import { AddUserService } from '@/app/services/add-user/add-user.service';
+} from './add-user.model';
+import { AddUserService } from '../../services/add-user/add-user.service';
 
 export const myCustomTooltipDefaults: MatTooltipDefaultOptions = {
   showDelay: 200,
